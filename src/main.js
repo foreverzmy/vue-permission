@@ -49,7 +49,6 @@ async function load(permit) {
   if (vm) {
     vm.$destroy(true);
   }
-  console.log(router);
   vm = new Vue({
     el: '#app',
     router,

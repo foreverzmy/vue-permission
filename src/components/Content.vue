@@ -14,7 +14,7 @@ export default {
   methods: {
     logout() {
       sessionStorage.removeItem('token');
-      location.reload();
+      location.replace('/')
     }
   }
 }

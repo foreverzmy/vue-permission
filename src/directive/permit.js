@@ -1,3 +1,4 @@
+// 权限管理指令
 export default {
   bind: function (el, binding, vnode) {
     let routes = binding.value[0].options.routes;
